@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>{{ post[1] }}</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="single-post">
+
+        <h1>{{ post[1] }}</h1>
+
+        <p>{{ post[2] }}</p>
+
+        <br><br>
+
+        <a class="btn btn-primary" href="/">
+            Back Home
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>
